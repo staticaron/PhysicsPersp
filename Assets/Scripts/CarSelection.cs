@@ -12,6 +12,10 @@ public class CarSelection : MonoBehaviour
     //Singleton
     public static CarSelection instance;
 
+    //Delegates and Events
+    public delegate void SelectionMade(CarType current);
+    public static SelectionMade ESelectionMade;
+
     public CarType selectedCar;
     [SerializeField] LayerMask carLayer;
 
@@ -41,9 +45,8 @@ public class CarSelection : MonoBehaviour
     public void Click()
     {
         Vector3 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-        float rayLength = 100;
+        float rayLength = Mathf.Infinity;
 
-        Ray ray = cam.ScreenPointToRay(mousePos);
         RaycastHit2D hitData = Physics2D.Raycast(mousePos, Vector3.forward, rayLength, carLayer);
         bool carFound = Physics2D.Raycast(mousePos, Vector3.forward, rayLength, carLayer);
 
@@ -52,9 +55,9 @@ public class CarSelection : MonoBehaviour
             GameObject carObject = hitData.collider.gameObject;
 
             selectedCar = carObject.GetComponent<Car>().carType;
-            Debug.Log(selectedCar);
-        }
 
-        Debug.Log(carFound);
+            //Raise event
+            if (ESelectionMade != null) ESelectionMade(selectedCar);
+        }
     }
 }

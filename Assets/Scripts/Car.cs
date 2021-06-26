@@ -1,8 +1,9 @@
 using UnityEngine;
-using System.Collections.Generic;
 
 public class Car : MonoBehaviour
 {
+    [SerializeField] const string FinishLineTag = "FinishLine";
+
     public CarType carType;
 
     [SerializeField] float acceleration;
@@ -29,5 +30,21 @@ public class Car : MonoBehaviour
         {
             carBody.velocity = Vector2.zero;
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag(FinishLineTag))
+        {
+            Finished();
+        }
+    }
+
+    private void Finished()
+    {
+        acceleration = 0;
+        velocity = 0;
+
+        //Do Something
     }
 }
