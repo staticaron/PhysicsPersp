@@ -9,7 +9,7 @@ public class Car : MonoBehaviour
     [SerializeField] float acceleration;
     [SerializeField] float velocity;
 
-    [SerializeField] int movementModifier = 1;
+    [SerializeField] int movementModifier = 0;
 
     [SerializeField] Vector2 initialPosition;
 

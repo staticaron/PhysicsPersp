@@ -50,8 +50,10 @@ public class PlayPause : MonoBehaviour
         #endregion
     }
 
+
     private void Start()
     {
+        CurrentPlayState = PlayState.PAUSE;
         UpdateButtonUI();
     }
 

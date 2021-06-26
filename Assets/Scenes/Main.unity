@@ -25556,6 +25556,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2060844708}
     m_Modifications:
+    - target: {fileID: 486574163, guid: d1da49757fb71664d82eac7f80a99be8, type: 3}
+      propertyPath: movementModifier
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3745848740808779539, guid: d1da49757fb71664d82eac7f80a99be8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -25617,6 +25621,10 @@ PrefabInstance:
       propertyPath: carType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1799384196, guid: 9cdd59a2c8b29e64aadf369f933d602c, type: 3}
+      propertyPath: movementModifier
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3798088924916173025, guid: 9cdd59a2c8b29e64aadf369f933d602c, type: 3}
       propertyPath: m_Name
       value: Mobilio
@@ -25674,6 +25682,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2060844708}
     m_Modifications:
+    - target: {fileID: 165200071, guid: f1d3ae8c609e2cb4a9a87a75c891068a, type: 3}
+      propertyPath: movementModifier
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8700782199658843942, guid: f1d3ae8c609e2cb4a9a87a75c891068a, type: 3}
       propertyPath: m_RootOrder
       value: 2
