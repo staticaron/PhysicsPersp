@@ -9,9 +9,26 @@ public enum PlayState
 
 public class PlayPause : MonoBehaviour
 {
-    [SerializeField] PlayState currentPlayState;
+    //Singleton
+    public static PlayPause instance;
+
+    public PlayState currentPlayState;
 
     [SerializeField] GameObject playIcon, pauseIcon;
+
+    private void Awake()
+    {
+        #region Maintain Single Instance
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        #endregion
+    }
 
     private void Start()
     {

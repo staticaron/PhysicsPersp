@@ -9,6 +9,9 @@ public enum CarType
 
 public class CarSelection : MonoBehaviour
 {
+    //Singleton
+    public static CarSelection instance;
+
     public CarType selectedCar;
     [SerializeField] LayerMask carLayer;
 
@@ -16,6 +19,11 @@ public class CarSelection : MonoBehaviour
 
     private void Awake()
     {
+        #region Maintain Single Instance
+        if (instance == null) instance = this;
+        else Destroy(gameObject);
+        #endregion
+
         cam = Camera.main;
 
         selectedCar = CarType.RANGEROVER;
