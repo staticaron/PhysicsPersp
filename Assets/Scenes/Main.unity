@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 45230308}
   - component: {fileID: 45230307}
   - component: {fileID: 45230306}
+  - component: {fileID: 45230310}
   m_Layer: 5
   m_Name: MainCanvas
   m_TagString: Untagged
@@ -226,6 +227,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &45230310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45230305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6efd3832fb5327847801469fb2c9a948, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedCarText: {fileID: 154061912}
 --- !u!1 &112021361
 GameObject:
   m_ObjectHideFlags: 0
