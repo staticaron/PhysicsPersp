@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public enum PlayState
 {
@@ -12,7 +11,28 @@ public class PlayPause : MonoBehaviour
     //Singleton
     public static PlayPause instance;
 
-    public PlayState currentPlayState;
+    private PlayState currentPlayState;
+    public PlayState CurrentPlayState
+    {
+        get { return currentPlayState; }
+        set
+        {
+            if (value == currentPlayState) return;
+
+            currentPlayState = value;
+
+            if (EPlayStateChanged != null) EPlayStateChanged(CurrentPlayState);
+
+            UpdateButtonUI();
+        }
+    }
+
+    //Delegates and Events
+    public delegate void Restarted();
+    public static Restarted ERestart;
+
+    public delegate void PlayStateChanged(PlayState current);
+    public static PlayStateChanged EPlayStateChanged;
 
     [SerializeField] GameObject playIcon, pauseIcon;
 
@@ -39,16 +59,22 @@ public class PlayPause : MonoBehaviour
     public void Click()
     {
         //Change the State
-        if (currentPlayState == PlayState.PLAY) currentPlayState = PlayState.PAUSE;
-        else if (currentPlayState == PlayState.PAUSE) currentPlayState = PlayState.PLAY;
-
-        //Change the ui
-        UpdateButtonUI();
+        if (CurrentPlayState == PlayState.PLAY) CurrentPlayState = PlayState.PAUSE;
+        else if (CurrentPlayState == PlayState.PAUSE) CurrentPlayState = PlayState.PLAY;
     }
 
     private void UpdateButtonUI()
     {
-        if (currentPlayState == PlayState.PAUSE) { pauseIcon.SetActive(false); playIcon.SetActive(true); }
-        else if (currentPlayState == PlayState.PLAY) { pauseIcon.SetActive(true); playIcon.SetActive(false); }
+        if (CurrentPlayState == PlayState.PAUSE) { pauseIcon.SetActive(false); playIcon.SetActive(true); }
+        else if (CurrentPlayState == PlayState.PLAY) { pauseIcon.SetActive(true); playIcon.SetActive(false); }
+    }
+
+    public void Restart()
+    {
+        //Reset the Position
+        if (ERestart != null) ERestart();
+
+        //Pause
+        CurrentPlayState = PlayState.PAUSE;
     }
 }
