@@ -9,6 +9,12 @@ public class Car : MonoBehaviour
     [SerializeField] float acceleration;
     [SerializeField] float velocity;
 
+    [SerializeField] int movementModifier = 1;
+
+    [SerializeField] Vector2 initialPosition;
+
+    private float currentVelocity;
+
     private Rigidbody2D carBody;
     private PlayPause playPauseManager;
 
@@ -16,20 +22,27 @@ public class Car : MonoBehaviour
     {
         carBody = GetComponent<Rigidbody2D>();
         playPauseManager = PlayPause.instance;
+
+        initialPosition = transform.position;
+        currentVelocity = velocity;
+
+        PlayPause.ERestart += Reset;
+        PlayPause.EPlayStateChanged += SetMovement;
+    }
+
+    private void OnDisable()
+    {
+        PlayPause.ERestart -= Reset;
+        PlayPause.EPlayStateChanged -= SetMovement;
     }
 
     private void FixedUpdate()
     {
-        if (playPauseManager.currentPlayState == PlayState.PLAY)
-        {
-            velocity += acceleration * Time.fixedDeltaTime;
 
-            carBody.velocity = Vector2.up * velocity;
-        }
-        else
-        {
-            carBody.velocity = Vector2.zero;
-        }
+        currentVelocity += acceleration * Time.fixedDeltaTime * movementModifier;
+
+        carBody.velocity = Vector2.up * currentVelocity * movementModifier;
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -42,9 +55,24 @@ public class Car : MonoBehaviour
 
     private void Finished()
     {
-        acceleration = 0;
-        velocity = 0;
+        movementModifier = 0;
+    }
 
-        //Do Something
+    private void SetMovement(PlayState current)
+    {
+        if (current == PlayState.PLAY)
+        {
+            movementModifier = 1;
+        }
+        else
+        {
+            movementModifier = 0;
+        }
+    }
+
+    private void Reset()
+    {
+        transform.position = initialPosition;
+        currentVelocity = velocity;
     }
 }
