@@ -118,9 +118,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b73d9b1b1699f04eb0a72d0a9dd7e0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carType: 0
+  carType: 1
   acceleration: 0
   velocity: 2
+  movementModifier: 0
+  initialPosition: {x: 0, y: 0}
 --- !u!61 &346391950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -145,5 +147,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 1.21}
+  m_Size: {x: 2.669468, y: 2.4227705}
   m_EdgeRadius: 0

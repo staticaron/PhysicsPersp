@@ -6,8 +6,8 @@ public class Car : MonoBehaviour
 
     public CarType carType;
 
-    [SerializeField] float acceleration;
-    [SerializeField] float velocity;
+    public float acceleration;
+    public float velocity;
 
     [SerializeField] int movementModifier = 0;
 

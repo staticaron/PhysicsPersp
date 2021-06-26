@@ -42,14 +42,14 @@ TagManager:
   - name: Tiles
     uniqueID: 3622780933
     locked: 0
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Cars
     uniqueID: 3097710583
     locked: 0
   - name: Props
     uniqueID: 2424036177
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: UI
     uniqueID: 1906083179

@@ -121,6 +121,8 @@ MonoBehaviour:
   carType: 2
   acceleration: 0
   velocity: 0
+  movementModifier: 0
+  initialPosition: {x: 0, y: 0}
 --- !u!61 &471355128
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -145,5 +147,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 1.31}
+  m_Size: {x: 2.669468, y: 2.4227705}
   m_EdgeRadius: 0
