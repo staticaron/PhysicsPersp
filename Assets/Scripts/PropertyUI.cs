@@ -57,16 +57,13 @@ public class PropertyUI : MonoBehaviour
 
     public void SaveData()
     {
-        float value;
-        float.TryParse(teslaAcceleration.text, out value);
-        Debug.Log(value);
-        // tesla.acceleration = Convert.ToSingle(teslaAcceleration.text);
-        // tesla.velocity = Convert.ToSingle(teslaVelocity.text);
+        tesla.acceleration = Convert.ToSingle(teslaAcceleration.text);
+        tesla.velocity = Convert.ToSingle(teslaVelocity.text);
 
-        // mobilio.acceleration = Convert.ToSingle(mobilioAcceleration.text);
-        // mobilio.velocity = Convert.ToSingle(mobilioVelocity.text);
+        mobilio.acceleration = Convert.ToSingle(mobilioAcceleration.text);
+        mobilio.velocity = Convert.ToSingle(mobilioVelocity.text);
 
-        // rangeRover.acceleration = Convert.ToSingle(rangeRoverAcceleration.text);
-        // rangeRover.velocity = Convert.ToSingle(rangeRoverVelocity.text);
+        rangeRover.acceleration = Convert.ToSingle(rangeRoverAcceleration.text);
+        rangeRover.velocity = Convert.ToSingle(rangeRoverVelocity.text);
     }
 }
