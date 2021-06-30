@@ -16,8 +16,32 @@ public class PropertyUI : MonoBehaviour
 
     [SerializeField] Car tesla, mobilio, rangeRover;
 
-    //Save those inputs
+    [SerializeField] PlayerDataChannelSO playerDataChannelSO;
 
+    private void Awake()
+    {
+        PlayerDataChannelSO.playerDataEvent += InitData;
+    }
+
+    private void OnDisable()
+    {
+        PlayerDataChannelSO.playerDataEvent -= InitData;
+    }
+
+    //Get the data from the Data Channel and apply it to the panel
+    private void InitData(Car tesla, Car mobilio, Car rangeRover)
+    {
+        teslaAcceleration.text = tesla.acceleration.ToString();
+        teslaVelocity.text = tesla.velocity.ToString();
+
+        mobilioAcceleration.text = mobilio.acceleration.ToString();
+        mobilioVelocity.text = mobilio.velocity.ToString();
+
+        rangeRoverAcceleration.text = rangeRover.acceleration.ToString();
+        rangeRoverVelocity.text = rangeRover.velocity.ToString();
+    }
+
+    //Check if data entered lies in the correct range
     public void CheckData(InputField inputField)
     {
         string input = inputField.text;

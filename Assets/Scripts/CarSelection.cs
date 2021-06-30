@@ -35,14 +35,30 @@ public class CarSelection : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Application.isMobilePlatform == true)
         {
-            Click();
+            if (Input.GetMouseButtonDown(0))
+            {
+                Clicked();
+            }
         }
+        else
+        {
+            if (Input.touchCount > 0)
+            {
+                //Screen Touched
+                Touch touch = Input.GetTouch(0);
+                if (touch.phase == TouchPhase.Began)
+                {
+                    Touched(touch);
+                }
+            }
+        }
+
     }
 
-    //Init car selection
-    public void Click()
+    //Init car selection based on click
+    public void Clicked()
     {
         Vector3 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         float rayLength = Mathf.Infinity;
@@ -57,6 +73,26 @@ public class CarSelection : MonoBehaviour
             selectedCar = carObject.GetComponent<Car>().carType;
 
             //Raise event
+            if (ESelectionMade != null) ESelectionMade(selectedCar);
+        }
+    }
+
+    //Init car selection based on touch
+    public void Touched(Touch touch)
+    {
+        Vector2 touchPos = touch.position;
+        float rayLength = Mathf.Infinity;
+
+        RaycastHit2D hitData = Physics2D.Raycast(touchPos, Vector3.forward, rayLength, carLayer);
+        bool carFound = Physics2D.Raycast(touchPos, Vector3.forward, rayLength, carLayer);
+
+        if (carFound)
+        {
+            GameObject carObject = hitData.collider.gameObject;
+
+            selectedCar = carObject.GetComponent<Car>().carType;
+
+            //Rasie Event
             if (ESelectionMade != null) ESelectionMade(selectedCar);
         }
     }
