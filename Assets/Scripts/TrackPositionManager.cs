@@ -8,9 +8,6 @@ public class ScreenBoundData
 
 public class TrackPositionManager : MonoBehaviour
 {
-    //Get the left bound of the screen based on the viewport.
-    //Set the track to the left most point.
-
     private Camera cam;
 
     [SerializeField] Transform track;

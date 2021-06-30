@@ -1,0 +1,2180 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 8.1  (6.3.0) 64bit' Language: 'en' Physical Memory: 1956 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Projects/PhysicsPersp
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49177
+Successfully changed project path to: F:/Projects/PhysicsPersp
+F:/Projects/PhysicsPersp
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 52.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Projects/PhysicsPersp/Assets
+GfxDevice: creating device client; threaded=0
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics (ID=0x102)
+    Vendor:   
+    VRAM:     978 MB
+    Driver:   9.17.10.4229
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001738 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.804 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.371 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.4 MB.
+System memory in use after: 62.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1372.
+Total: 2.574174 ms (FindLiveObjects: 0.163072 ms CreateObjectMapping: 0.088568 ms MarkObjects: 2.130954 ms  DeleteObjects: 0.189680 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Assets/Cars/car_black_4.png
+  artifactKey: Guid(8d83d509786cd2442b51c45e8f8a2fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_4.png using Guid(8d83d509786cd2442b51c45e8f8a2fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebbee7624d6a5928ffcb40b5eacdfbc') in 0.530859 seconds
+  Import took 0.547341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014646 seconds.
+  path: Assets/Assets/Cars/car_black_2.png
+  artifactKey: Guid(f45b27b40696a784fa940a1461fef12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_2.png using Guid(f45b27b40696a784fa940a1461fef12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a60bf46d374a2e8cd8d8a93876b5b50') in 0.104701 seconds
+  Import took 0.111461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Assets/Cars/car_blue_4.png
+  artifactKey: Guid(74579bde7fe60654f990ec19b83d89b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_4.png using Guid(74579bde7fe60654f990ec19b83d89b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c6deac98c239ac6cc00b839725afe2') in 0.063445 seconds
+  Import took 0.077684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Assets/Cars/car_blue_2.png
+  artifactKey: Guid(1732a60079422584f84c6d717286991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_2.png using Guid(1732a60079422584f84c6d717286991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faec79c5511f98d144430dc30faf8916') in 0.052556 seconds
+  Import took 0.059569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Assets/Objects/barrier_white_race.png
+  artifactKey: Guid(b892ec5f447680c438bc850d69adce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Objects/barrier_white_race.png using Guid(b892ec5f447680c438bc850d69adce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee26051a1799df46d9ec79486f8e97a') in 0.073266 seconds
+  Import took 0.085710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Assets/Cars/car_black_1.png
+  artifactKey: Guid(1b99b93fe5a678242a03085f97fad72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_1.png using Guid(1b99b93fe5a678242a03085f97fad72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31aeda9daad59db0d55785558b3946d') in 0.059605 seconds
+  Import took 0.082545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002197 seconds.
+  path: Assets/Assets/Cars/car_green_3.png
+  artifactKey: Guid(e816d9b7762973947b55de04e98591aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_3.png using Guid(e816d9b7762973947b55de04e98591aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84410f8fd1f52b12a06d26f0ef2efa2c') in 0.083354 seconds
+  Import took 0.092766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/Assets/Cars/car_green_small_5.png
+  artifactKey: Guid(6ccaac14529f7b1478464cdb20fbb9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_small_5.png using Guid(6ccaac14529f7b1478464cdb20fbb9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684b36e64076f7f3e4e65f10c5398db9') in 0.141487 seconds
+  Import took 0.144838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Assets/Cars/car_black_small_2.png
+  artifactKey: Guid(0eba36fd406e72c469a3e3c2a7bb99d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_small_2.png using Guid(0eba36fd406e72c469a3e3c2a7bb99d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b9045f3124988ecfc7388b2f16a521') in 0.038808 seconds
+  Import took 0.041133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Assets/Cars/car_blue_small_3.png
+  artifactKey: Guid(1eff2cb431d43c144a8e303165ce605c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_small_3.png using Guid(1eff2cb431d43c144a8e303165ce605c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c5e680eeeae2962d19cefe83ce9d85') in 0.052130 seconds
+  Import took 0.057397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/Cars/car_black_small_5.png
+  artifactKey: Guid(2b78290742541d04fb3389093f588a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_small_5.png using Guid(2b78290742541d04fb3389093f588a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4990d9f0c7e01a3c8629c847bdd09dae') in 0.070702 seconds
+  Import took 0.075703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Assets/Cars/car_blue_small_5.png
+  artifactKey: Guid(466f20c330bf23646942f4d03cdb1f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_small_5.png using Guid(466f20c330bf23646942f4d03cdb1f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564fa237c8947742346efb172b47352e') in 0.072899 seconds
+  Import took 0.089990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000692 seconds.
+  path: Assets/Assets/Cars/car_green_4.png
+  artifactKey: Guid(5525c5d07b5d7d64a91a8cbf246618a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_4.png using Guid(5525c5d07b5d7d64a91a8cbf246618a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b93cf7c15c8e9607315eb088023c23') in 0.062026 seconds
+  Import took 0.071051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Assets/Cars/car_blue_small_1.png
+  artifactKey: Guid(d34062df2c7defe42b8d0a291caa02e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_small_1.png using Guid(d34062df2c7defe42b8d0a291caa02e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5806fd10ffe89522626e3cc15de436d4') in 0.035666 seconds
+  Import took 0.051534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000964 seconds.
+  path: Assets/Assets/Cars/car_green_small_3.png
+  artifactKey: Guid(83e59f35c87a5cf4ebe2a33b3af611d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_small_3.png using Guid(83e59f35c87a5cf4ebe2a33b3af611d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7373c36b3937f9618be827768f4c92') in 0.045956 seconds
+  Import took 0.067050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Assets/Cars/car_blue_1.png
+  artifactKey: Guid(97ff9aaa3d7bb8648936179831781d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_1.png using Guid(97ff9aaa3d7bb8648936179831781d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d5118f7786e6694a7c1bd1b028c5a6') in 0.053855 seconds
+  Import took 0.063780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Assets/Cars/car_green_small_2.png
+  artifactKey: Guid(3af1dd15341608841965f545be26b90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_small_2.png using Guid(3af1dd15341608841965f545be26b90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fea9ae8fbe2c04483dabf7348b88f74') in 0.052705 seconds
+  Import took 0.076734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Assets/Cars/car_blue_5.png
+  artifactKey: Guid(28435ad470b1b034ba84e14c003fed32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_5.png using Guid(28435ad470b1b034ba84e14c003fed32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6741e1aa8023e60138ae92ba784718') in 0.092491 seconds
+  Import took 0.102004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003666 seconds.
+  path: Assets/Assets/Cars/car_black_5.png
+  artifactKey: Guid(07fb0e95e88061a47843e68ec6e4c121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_5.png using Guid(07fb0e95e88061a47843e68ec6e4c121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ff8dd29cc26e10a417a24ee7ea8dbb') in 0.042884 seconds
+  Import took 0.051629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Assets/Cars/car_black_small_4.png
+  artifactKey: Guid(33aab28f466f2db47a3534de335df86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_small_4.png using Guid(33aab28f466f2db47a3534de335df86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfc5fb4f3c23dd2f01ace6f918f3fdc') in 0.061730 seconds
+  Import took 0.076193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Assets/Cars/car_green_small_1.png
+  artifactKey: Guid(6133592ebfd7bcf448b80b07ac34f0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_small_1.png using Guid(6133592ebfd7bcf448b80b07ac34f0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a02db1bf485c5cc7db5ec78ad035dae') in 0.050294 seconds
+  Import took 0.056067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Assets/Cars/car_green_5.png
+  artifactKey: Guid(19ce47381f1705d48a2a9578d7417478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_5.png using Guid(19ce47381f1705d48a2a9578d7417478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b004c415ce0157cbbe5c044609534ea6') in 0.085117 seconds
+  Import took 0.091983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Assets/Cars/car_black_3.png
+  artifactKey: Guid(bf4d66981ad998245bfcdecd64b330a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_3.png using Guid(bf4d66981ad998245bfcdecd64b330a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b3d13bb36d6ae6e14da49bb12b292c') in 0.076506 seconds
+  Import took 0.086134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Assets/Cars/car_black_small_3.png
+  artifactKey: Guid(919a78d187c58d441be5ee6957e2ca81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_small_3.png using Guid(919a78d187c58d441be5ee6957e2ca81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c952c0206e74653ea46b1cfe5a572d2') in 0.058394 seconds
+  Import took 0.067769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Assets/Cars/car_blue_small_2.png
+  artifactKey: Guid(ceeafa3bb076a914192ee1e49aa4c72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_small_2.png using Guid(ceeafa3bb076a914192ee1e49aa4c72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd480cc3181b53e9f3834fcfb7d6890d6') in 0.061336 seconds
+  Import took 0.071437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Assets/Cars/car_green_2.png
+  artifactKey: Guid(a87076ead06c97043b77a161894ae558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_2.png using Guid(a87076ead06c97043b77a161894ae558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8b7bfd53aa7406b37028a5cf52256a') in 0.066919 seconds
+  Import took 0.076793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Assets/Cars/car_green_1.png
+  artifactKey: Guid(b0cf762e09fe930449bcb793810bec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_1.png using Guid(b0cf762e09fe930449bcb793810bec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0428249fd986527feb1eca54a865c13d') in 0.068195 seconds
+  Import took 0.078753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Assets/Cars/car_black_small_1.png
+  artifactKey: Guid(30d916b911073a44790f8eb195c97b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_small_1.png using Guid(30d916b911073a44790f8eb195c97b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0dc859eff3f9f73e2d64b69f8d6013') in 0.067851 seconds
+  Import took 0.078480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Assets/Cars/car_blue_small_4.png
+  artifactKey: Guid(278a71e29d0d1404c8880f555a71d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_small_4.png using Guid(278a71e29d0d1404c8880f555a71d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0beba4e57a93c5f6b42a1f36f7374fa') in 0.064239 seconds
+  Import took 0.077136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Assets/Cars/car_green_small_4.png
+  artifactKey: Guid(d9ae11cb6dfe99c46816e55a74355556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_small_4.png using Guid(d9ae11cb6dfe99c46816e55a74355556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fee1ede429932c8bcafb57d7a9c682') in 0.075120 seconds
+  Import took 0.079431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Assets/Objects/barrier_red_race.png
+  artifactKey: Guid(964f4b5bad02c2e4a8d6e4c2524d1849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Objects/barrier_red_race.png using Guid(964f4b5bad02c2e4a8d6e4c2524d1849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5f2c7b5fba0fb9ccd2efc3342afda2') in 0.078949 seconds
+  Import took 0.085093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 341.694626 seconds.
+  path: Assets/Assets/Cars/car_red_1.png
+  artifactKey: Guid(1fbb16d8081d0ad43b5707db995306e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_1.png using Guid(1fbb16d8081d0ad43b5707db995306e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68023cc6c57d2f046ac22e8cbfdb3312') in 0.041404 seconds
+  Import took 0.044630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Assets/Cars/car_red_4.png
+  artifactKey: Guid(4dddde7f2af11f24783584a0b8264f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_4.png using Guid(4dddde7f2af11f24783584a0b8264f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2bedd43cdd69da2e73a506c60b51b8') in 0.091456 seconds
+  Import took 0.099340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Assets/Cars/car_red_small_2.png
+  artifactKey: Guid(db38a565d86d99846801d9455100a5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_small_2.png using Guid(db38a565d86d99846801d9455100a5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6b0f5c77beac7298ca75afdeaa9437') in 0.083598 seconds
+  Import took 0.089000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Assets/Cars/car_red_small_1.png
+  artifactKey: Guid(84e57e7baec6fe94e8d81603400d9055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_small_1.png using Guid(84e57e7baec6fe94e8d81603400d9055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7735c756b376bcc38f05c1a1445b63f4') in 0.054286 seconds
+  Import took 0.075637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001836 seconds.
+  path: Assets/Assets/Cars/car_red_5.png
+  artifactKey: Guid(0eac124ae2c4e8345bc86041b12f5ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_5.png using Guid(0eac124ae2c4e8345bc86041b12f5ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823c6c4d0e22d1045730ab101ec87251') in 0.037296 seconds
+  Import took 0.045218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Assets/Cars/car_red_small_3.png
+  artifactKey: Guid(c1091cd90195eb5478558163fa748f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_small_3.png using Guid(c1091cd90195eb5478558163fa748f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85354c6eb74c9832bf0e234be6dd7719') in 0.036336 seconds
+  Import took 0.046912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Assets/Cars/car_red_3.png
+  artifactKey: Guid(cecf1b8eb504b1446bbd96043d086d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_3.png using Guid(cecf1b8eb504b1446bbd96043d086d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892d772f6711c448155650e73e40a8a0') in 0.045397 seconds
+  Import took 0.065740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Assets/Cars/car_red_2.png
+  artifactKey: Guid(27b95d933a55ede4481b1739f7645c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_2.png using Guid(27b95d933a55ede4481b1739f7645c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218141e879ffc0d572aa580da9baf7d4') in 0.080964 seconds
+  Import took 0.087050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131388 seconds.
+  path: Assets/Assets/Cars/car_red_small_4.png
+  artifactKey: Guid(a8df8d65a25ac3845abc67bae5098835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_small_4.png using Guid(a8df8d65a25ac3845abc67bae5098835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8bffcced1f6945f8b42c0ad64fcb28') in 0.051502 seconds
+  Import took 0.055034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002924 seconds.
+  path: Assets/Assets/Cars/car_yellow_3.png
+  artifactKey: Guid(da7202a103127ab4980cda35dcee773b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_3.png using Guid(da7202a103127ab4980cda35dcee773b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512ec2eafe36f30d7e0c76645182916b') in 0.097180 seconds
+  Import took 0.100040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Assets/Cars/car_yellow_5.png
+  artifactKey: Guid(731d39f0de8e20049951f88ccf031e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_5.png using Guid(731d39f0de8e20049951f88ccf031e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3852bc9b617c83305a3058f2dbdd05ac') in 0.042062 seconds
+  Import took 0.068817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Assets/UI/checkmark.png
+  artifactKey: Guid(3c531daa39d207944b4676e657eb2203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/checkmark.png using Guid(3c531daa39d207944b4676e657eb2203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c6adeb44cf92db536f493bb2450801') in 0.053723 seconds
+  Import took 0.066722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/Cars/car_yellow_small_2.png
+  artifactKey: Guid(1c1f5e33986829849b3a329ff236ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_small_2.png using Guid(1c1f5e33986829849b3a329ff236ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81aa547261689b31ca120cf49318b04f') in 0.048632 seconds
+  Import took 0.056619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Assets/Cars/car_yellow_small_5.png
+  artifactKey: Guid(d98a1e70042524b4b8351467813ec248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_small_5.png using Guid(d98a1e70042524b4b8351467813ec248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483b1ca27f9aaa278c973f88bfd3e09f') in 0.039110 seconds
+  Import took 0.042680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001016 seconds.
+  path: Assets/Assets/Cars/car_yellow_small_4.png
+  artifactKey: Guid(b0ab54f6959ef8244a4efd944b53c26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_small_4.png using Guid(b0ab54f6959ef8244a4efd944b53c26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22cac8a051101d2d849eb28776e0212') in 0.057392 seconds
+  Import took 0.068470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Assets/UI/forward.png
+  artifactKey: Guid(d81ced869d09237438a322379af17199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/forward.png using Guid(d81ced869d09237438a322379af17199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e895ffbf1d6cabe5ae63a765c77a1d') in 0.094652 seconds
+  Import took 0.099179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Assets/Dirt/land_dirt04.png
+  artifactKey: Guid(928ce7ebfe58ad0439d90f5a0f073819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt04.png using Guid(928ce7ebfe58ad0439d90f5a0f073819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754abc205d319113788fc942044c5d80') in 0.084289 seconds
+  Import took 0.089384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Assets/Grass/land_grass09.png
+  artifactKey: Guid(236f310b5c1ee8b46860eaa8f12f2d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass09.png using Guid(236f310b5c1ee8b46860eaa8f12f2d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082fa4338d09c772427fc8701678a322') in 0.051567 seconds
+  Import took 0.057096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/Grass/land_grass14.png
+  artifactKey: Guid(d710e03f26e7a71459c5d8fd798f3d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass14.png using Guid(d710e03f26e7a71459c5d8fd798f3d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fa3017981b52bcd43ffde182d7ea92') in 0.062110 seconds
+  Import took 0.065635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/Assets/Dirt/land_dirt03.png
+  artifactKey: Guid(985203357448b7f41bb3e3678faf968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt03.png using Guid(985203357448b7f41bb3e3678faf968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb23adcda94c6e4a275203b82983a97') in 0.087153 seconds
+  Import took 0.093494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001558 seconds.
+  path: Assets/Assets/Dirt/land_dirt14.png
+  artifactKey: Guid(a5d836d57c2cadc4094a306120591e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt14.png using Guid(a5d836d57c2cadc4094a306120591e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac695dafcc27b4afdc32228ca0b381d') in 0.052053 seconds
+  Import took 0.055785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt22.png
+  artifactKey: Guid(66a2de7747b5abd4db9e5d3ef6c11c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt22.png using Guid(66a2de7747b5abd4db9e5d3ef6c11c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933ebabae3aa2a3215dd16558afab452') in 0.088686 seconds
+  Import took 0.094068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt15.png
+  artifactKey: Guid(125929327aed3eb4c8aa525bcd16c18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt15.png using Guid(125929327aed3eb4c8aa525bcd16c18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0801ecc81821688ff354dac503161ccf') in 0.046369 seconds
+  Import took 0.063811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001211 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt23.png
+  artifactKey: Guid(eb5e818efd6a3ab4a9182074f130a87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt23.png using Guid(eb5e818efd6a3ab4a9182074f130a87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4029ae46713dbb2cfdb1bba6a1044ef3') in 0.041682 seconds
+  Import took 0.052245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Assets/Dirt/land_dirt12.png
+  artifactKey: Guid(3637e7840c739ee4fbd8feb75d7c981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt12.png using Guid(3637e7840c739ee4fbd8feb75d7c981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa5e28896174bbcc92667c8c3477fe1') in 0.084204 seconds
+  Import took 0.099728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt33.png
+  artifactKey: Guid(8db10d46a1ee40440bb871600f4bac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt33.png using Guid(8db10d46a1ee40440bb871600f4bac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b6734d13b66fe33d7dfc2d87e19935') in 0.076164 seconds
+  Import took 0.078943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt32.png
+  artifactKey: Guid(99dda8c2526c5e349800c883ede2c4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt32.png using Guid(99dda8c2526c5e349800c883ede2c4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa84e78a1fb5596394c50ae0565e909') in 0.065138 seconds
+  Import took 0.079190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002700 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt30.png
+  artifactKey: Guid(68b20a500ccf1334dbd1b52cb7176e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt30.png using Guid(68b20a500ccf1334dbd1b52cb7176e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bd342b7e979b64d1c07cfa10260407') in 0.038663 seconds
+  Import took 0.057206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt34.png
+  artifactKey: Guid(91c8dbfbb6006e047a341239cc892f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt34.png using Guid(91c8dbfbb6006e047a341239cc892f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c280d3f1da30f611b6bedda778d25e') in 0.066859 seconds
+  Import took 0.072956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt46.png
+  artifactKey: Guid(e8e773d53e3608f4f8e7ffe6ea82c235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt46.png using Guid(e8e773d53e3608f4f8e7ffe6ea82c235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5cb185a306423d38683c8e54eb8bf5') in 0.048842 seconds
+  Import took 0.054942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt26.png
+  artifactKey: Guid(d12041378812c5142a9171acd870ab3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt26.png using Guid(d12041378812c5142a9171acd870ab3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7fe4fe89342c92a3a907259d962506') in 0.053719 seconds
+  Import took 0.069604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt17.png
+  artifactKey: Guid(b9d0804785524f54cb7a211884f67865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt17.png using Guid(b9d0804785524f54cb7a211884f67865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157ff926da9dda96e40476764d4fb1ef') in 0.074995 seconds
+  Import took 0.080264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/Assets/Cars/car_yellow_2.png
+  artifactKey: Guid(6cb3fc0da34a7bf4192fc37c39db8a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_2.png using Guid(6cb3fc0da34a7bf4192fc37c39db8a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fe0e971b0d680cd78b00b207fe89b1') in 0.052455 seconds
+  Import took 0.057530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt52.png
+  artifactKey: Guid(936f5f2fd5c7b854e86528ed92677760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt52.png using Guid(936f5f2fd5c7b854e86528ed92677760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05e4565cbf3d6c094c38bba028b0ef4') in 0.069367 seconds
+  Import took 0.074882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001161 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt51.png
+  artifactKey: Guid(a7c9d9a88aa4630418b48ce40ea8edbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt51.png using Guid(a7c9d9a88aa4630418b48ce40ea8edbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ae798e3f5e8b20c600c34d59388c03') in 0.074608 seconds
+  Import took 0.088097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Assets/Grass/land_grass07.png
+  artifactKey: Guid(9e3df3a3817bd544ead612f1422597d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass07.png using Guid(9e3df3a3817bd544ead612f1422597d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53d018691093648cb110d30a14aaceb') in 0.046213 seconds
+  Import took 0.054759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004385 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt25.png
+  artifactKey: Guid(5809feeddf1722a41ab5b56299e5da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt25.png using Guid(5809feeddf1722a41ab5b56299e5da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8eb27dcabfb49d0ba5a58abc3aa8fa4') in 0.059066 seconds
+  Import took 0.075553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt31.png
+  artifactKey: Guid(89e4bce06b8813144a02d208f85c6430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt31.png using Guid(89e4bce06b8813144a02d208f85c6430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376895168750e8a1002f703a2a8a4df3') in 0.060736 seconds
+  Import took 0.064898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt40.png
+  artifactKey: Guid(aaff37b78347c5143a83472308eb5479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt40.png using Guid(aaff37b78347c5143a83472308eb5479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4dc245be840b1aec3dddf61e98d64ac') in 0.048946 seconds
+  Import took 0.062143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Assets/Grass/land_grass11.png
+  artifactKey: Guid(34ca724a671cda0469f7e224f736b1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass11.png using Guid(34ca724a671cda0469f7e224f736b1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ee3d1b28c4089ceea978d9df1fdd9a') in 0.052047 seconds
+  Import took 0.071616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Assets/Cars/car_yellow_small_1.png
+  artifactKey: Guid(b96ac1d375f26454baad6abeeff7fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_small_1.png using Guid(b96ac1d375f26454baad6abeeff7fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a19691a4c83091f6ad8458177c37ec') in 0.053348 seconds
+  Import took 0.062640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000848 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt11.png
+  artifactKey: Guid(4edb246bc5d196d419cb9142dff4bc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt11.png using Guid(4edb246bc5d196d419cb9142dff4bc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b91514b6d019dfadd174585db09e79b') in 0.072963 seconds
+  Import took 0.081839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt29.png
+  artifactKey: Guid(c4237f0b4640844458fab961d00ff533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt29.png using Guid(c4237f0b4640844458fab961d00ff533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc68517634c3bcc53e88d4b52912dbae') in 0.058022 seconds
+  Import took 0.061112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001467 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt07.png
+  artifactKey: Guid(d70aa15e9dcebfb42b8de066b94d5bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt07.png using Guid(d70aa15e9dcebfb42b8de066b94d5bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54047bf457d9b5c9292a350f9b7e0169') in 0.086661 seconds
+  Import took 0.090807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt42.png
+  artifactKey: Guid(58533aa77b6445f4caece58a7557460e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt42.png using Guid(58533aa77b6445f4caece58a7557460e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc350ab5d0bc432bef9faa5476f3139') in 0.049544 seconds
+  Import took 0.055058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002565 seconds.
+  path: Assets/Assets/Cars/car_yellow_4.png
+  artifactKey: Guid(804dfbe7b7749bc418a359b29170de8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_4.png using Guid(804dfbe7b7749bc418a359b29170de8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df62c13d562ec185d49a6fa2deff77cd') in 0.046156 seconds
+  Import took 0.050337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Assets/Dirt/land_dirt01.png
+  artifactKey: Guid(61f7f5b4cf9dbd8428d9cadde6c22c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt01.png using Guid(61f7f5b4cf9dbd8428d9cadde6c22c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bddc1b0847f9559631c5383d6864666') in 0.097868 seconds
+  Import took 0.129495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt35.png
+  artifactKey: Guid(ce95e258afe10d347a74232e2d5a0e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt35.png using Guid(ce95e258afe10d347a74232e2d5a0e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c303d1822d83654555782e9d558aa5') in 0.089136 seconds
+  Import took 0.094402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Assets/Objects/cone_down.png
+  artifactKey: Guid(9daa81b3004294245b34ce7ca4764288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Objects/cone_down.png using Guid(9daa81b3004294245b34ce7ca4764288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14a2f9de63f49d4cc5faba897f626d0') in 0.093152 seconds
+  Import took 0.107589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Assets/Grass/land_grass10.png
+  artifactKey: Guid(6d437f0b79251c94994cb59b81a5ed87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass10.png using Guid(6d437f0b79251c94994cb59b81a5ed87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6fb92057d7aae970eb530b12915b3d') in 0.074483 seconds
+  Import took 0.077500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Assets/Dirt/land_dirt11.png
+  artifactKey: Guid(c8179f5436bbba040a1937219867711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt11.png using Guid(c8179f5436bbba040a1937219867711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0ac07ffe79680d0a07f66ef3a6b4d5') in 0.048995 seconds
+  Import took 0.057716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt27.png
+  artifactKey: Guid(b682fefa2a681b74f9246e6962dcff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt27.png using Guid(b682fefa2a681b74f9246e6962dcff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24b41a363d7f60d80fa3a28d56a8c81') in 0.078680 seconds
+  Import took 0.084380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt19.png
+  artifactKey: Guid(5fcd30c8097645a4b8ed0532430c31eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt19.png using Guid(5fcd30c8097645a4b8ed0532430c31eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea6ddcd5317f3ae59b0e665f08b0723') in 0.107775 seconds
+  Import took 0.115190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000829 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt53.png
+  artifactKey: Guid(608adc343daabb941b87cb7bf3758858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt53.png using Guid(608adc343daabb941b87cb7bf3758858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9844d4cc0897b4d282f088152044a92d') in 0.087924 seconds
+  Import took 0.094547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt38.png
+  artifactKey: Guid(5af0376c6d1ddd847a059dbefef8655b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt38.png using Guid(5af0376c6d1ddd847a059dbefef8655b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105b9652d86cc3f1ae585e15b54b4a52') in 0.087496 seconds
+  Import took 0.092480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt37.png
+  artifactKey: Guid(bd2db398cba74fa489d8f128dde00d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt37.png using Guid(bd2db398cba74fa489d8f128dde00d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ea0c5f82c988735a9264543ab76009') in 0.089746 seconds
+  Import took 0.105059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt16.png
+  artifactKey: Guid(937750f979774fc4cae8e21fe7f2699d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt16.png using Guid(937750f979774fc4cae8e21fe7f2699d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdd79c3db6d116bd5c01acc8b846cba') in 0.042280 seconds
+  Import took 0.064433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Assets/Dirt/land_dirt05.png
+  artifactKey: Guid(31621b78efcf73144877742065c015f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt05.png using Guid(31621b78efcf73144877742065c015f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068cb1adb5ce43b1e3a16751f77518c6') in 0.049781 seconds
+  Import took 0.053331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt44.png
+  artifactKey: Guid(3b6e155f082b81843a8b9490507a1ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt44.png using Guid(3b6e155f082b81843a8b9490507a1ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b4df6076c06da1b333e1079676f96c') in 0.048595 seconds
+  Import took 0.053451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000757 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt14.png
+  artifactKey: Guid(2953ef65ea77d484f962aba761f46f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt14.png using Guid(2953ef65ea77d484f962aba761f46f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da27b4c715ea8c0ee0513423b4ebcd41') in 0.041591 seconds
+  Import took 0.046009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt20.png
+  artifactKey: Guid(40b0aab8946032349a5eaa58956443a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt20.png using Guid(40b0aab8946032349a5eaa58956443a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b85893eebd403f8c02ce9a257b4a39e') in 0.049491 seconds
+  Import took 0.057124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt39.png
+  artifactKey: Guid(eb94ab4298755a640b576a5052f333cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt39.png using Guid(eb94ab4298755a640b576a5052f333cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1da2b28a85b6f7473b8800cf2f4802') in 0.057711 seconds
+  Import took 0.062020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt48.png
+  artifactKey: Guid(17883128c0dc3784ca8ba2e2e508c7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt48.png using Guid(17883128c0dc3784ca8ba2e2e508c7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f268f7f11c68cb3aa1c52c5ac46d411') in 0.039617 seconds
+  Import took 0.052894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Assets/Grass/land_grass06.png
+  artifactKey: Guid(389a53034846fee4fbabf1b1580c2d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass06.png using Guid(389a53034846fee4fbabf1b1580c2d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c95e19c3d88c379bccc6c8f0304471') in 0.055231 seconds
+  Import took 0.059602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002756 seconds.
+  path: Assets/Assets/Dirt/land_dirt10.png
+  artifactKey: Guid(7a31952217d45084a9d0629fd95d6c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt10.png using Guid(7a31952217d45084a9d0629fd95d6c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1783aba967dc5cb2dabd20771660b359') in 0.061241 seconds
+  Import took 0.066462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001194 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt12.png
+  artifactKey: Guid(765fe792dbc30b14dbcf00123536fdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt12.png using Guid(765fe792dbc30b14dbcf00123536fdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa176ed101e7b27313fd468096c5fe9') in 0.026610 seconds
+  Import took 0.031985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt49.png
+  artifactKey: Guid(71ce242c6258bbf4da3bb8f88c0a6317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt49.png using Guid(71ce242c6258bbf4da3bb8f88c0a6317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4733408d26fa991e9c72316c2e8d6c') in 0.041646 seconds
+  Import took 0.060295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt28.png
+  artifactKey: Guid(32a45fd7aaf4aa644aec9884b1a9be92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt28.png using Guid(32a45fd7aaf4aa644aec9884b1a9be92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76120fbb50e302d45e4a6a48068c7fb4') in 0.055833 seconds
+  Import took 0.060933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000899 seconds.
+  path: Assets/Assets/Grass/land_grass03.png
+  artifactKey: Guid(4c4aa2bd0b8bae8438c9b7dc064ea4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass03.png using Guid(4c4aa2bd0b8bae8438c9b7dc064ea4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e234031f66dcc78aa391c433b0ea23d3') in 0.086509 seconds
+  Import took 0.106029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Assets/Grass/land_grass13.png
+  artifactKey: Guid(012b8ec01d2724541b67e42e5f9fd2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass13.png using Guid(012b8ec01d2724541b67e42e5f9fd2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6ef43d6778c5b9ae10af8cec72f86e') in 0.069686 seconds
+  Import took 0.078331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt10.png
+  artifactKey: Guid(f2675b061b404a64e890895e7edf88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt10.png using Guid(f2675b061b404a64e890895e7edf88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d355a55d38812d0a8251a54cf3e57fa') in 0.047586 seconds
+  Import took 0.051003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Assets/Grass/land_grass08.png
+  artifactKey: Guid(b950bd3ac24e492449f57f32c932d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass08.png using Guid(b950bd3ac24e492449f57f32c932d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2762b0e1a5c03c75d55c1ee32a913f85') in 0.074085 seconds
+  Import took 0.076633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Assets/Dirt/land_dirt07.png
+  artifactKey: Guid(116d004fdee2d96438703238fd464455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt07.png using Guid(116d004fdee2d96438703238fd464455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8eeb784f890f5c7c023dbcfe7b1905') in 0.059661 seconds
+  Import took 0.066989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001036 seconds.
+  path: Assets/Assets/Dirt/land_dirt09.png
+  artifactKey: Guid(d5bfaaa79e06885489e30c98962d72c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt09.png using Guid(d5bfaaa79e06885489e30c98962d72c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09dee1e60f2ba8d2d048741730da7b4') in 0.050126 seconds
+  Import took 0.058634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Assets/Grass/land_grass01.png
+  artifactKey: Guid(0ee1e71c082e3d2488a6557473ba1515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass01.png using Guid(0ee1e71c082e3d2488a6557473ba1515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdbad26a9676206efa42e86d74d16cc') in 0.045716 seconds
+  Import took 0.050256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/Assets/Grass/land_grass12.png
+  artifactKey: Guid(ca345727da243494ca3344d110a2d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass12.png using Guid(ca345727da243494ca3344d110a2d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd0fa11cb450bc0a247a456cefcec28') in 0.057164 seconds
+  Import took 0.074369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Assets/Grass/land_grass04.png
+  artifactKey: Guid(e7685a2292d29484397110d147836705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass04.png using Guid(e7685a2292d29484397110d147836705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4985fa5a1ac398ffbee00b6fd8cbd99') in 0.068811 seconds
+  Import took 0.089579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt18.png
+  artifactKey: Guid(aba7dab98bdcd164dadd9ef1c1ad3336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt18.png using Guid(aba7dab98bdcd164dadd9ef1c1ad3336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190bbb6c2d2a4af53b866b18a5b144d0') in 0.050222 seconds
+  Import took 0.055089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt41.png
+  artifactKey: Guid(db1c709145b971744997c3f2de9a9f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt41.png using Guid(db1c709145b971744997c3f2de9a9f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21eb7122ba514483f600c710692111ec') in 0.041803 seconds
+  Import took 0.046810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt50.png
+  artifactKey: Guid(1b9fe8a430321654a8d3219c2f9cf680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt50.png using Guid(1b9fe8a430321654a8d3219c2f9cf680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caae304b9e805090f668d9af2797991') in 0.039476 seconds
+  Import took 0.043752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt47.png
+  artifactKey: Guid(efa467442aa0c694b900a2f86afa7b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt47.png using Guid(efa467442aa0c694b900a2f86afa7b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1214e5ac277d5d0cfbfb2f85ab78d4') in 0.063789 seconds
+  Import took 0.069170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt24.png
+  artifactKey: Guid(34644b0bfbf2c0d44ab67549f9340536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt24.png using Guid(34644b0bfbf2c0d44ab67549f9340536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a0ef1dfbfd69ce0f3a6a4c5a1162cf') in 0.087000 seconds
+  Import took 0.093223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt43.png
+  artifactKey: Guid(a14120334a9ef974599e9e51645e17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt43.png using Guid(a14120334a9ef974599e9e51645e17aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f4b2081a79b4da17e8881c155c5787') in 0.042248 seconds
+  Import took 0.047126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/Dirt/land_dirt02.png
+  artifactKey: Guid(5a9e74eef1cb1f140b559a82e70f3915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt02.png using Guid(5a9e74eef1cb1f140b559a82e70f3915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08ce418f8bb3a62276fba0c1ecef83b') in 0.056132 seconds
+  Import took 0.060665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt45.png
+  artifactKey: Guid(09c474fa584b63642846aae6637245f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt45.png using Guid(09c474fa584b63642846aae6637245f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507a37ab9006fbae9bf37675f11f5c7c') in 0.041076 seconds
+  Import took 0.045034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Assets/Cars/car_red_small_5.png
+  artifactKey: Guid(73cc2b4d6138c424292ac8d2d86c9e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_small_5.png using Guid(73cc2b4d6138c424292ac8d2d86c9e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b43884ab4f203c5db4fad1b70c85d0b') in 0.059276 seconds
+  Import took 0.061804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt36.png
+  artifactKey: Guid(006adb6fc519d7446b59fc6029e64eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt36.png using Guid(006adb6fc519d7446b59fc6029e64eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc123ffdfd8fee94a1247846c7f2bfd') in 0.094009 seconds
+  Import took 0.105286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000826 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt13.png
+  artifactKey: Guid(9eddcef4b95619648b5a1c44fa28b93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt13.png using Guid(9eddcef4b95619648b5a1c44fa28b93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75831c925a26dfcc230b357001c585f') in 0.055108 seconds
+  Import took 0.074322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt21.png
+  artifactKey: Guid(274b5ae53f7a66f498a2873039ea7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt21.png using Guid(274b5ae53f7a66f498a2873039ea7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69751838499d663188ff9d07368974e4') in 0.051493 seconds
+  Import took 0.057620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt54.png
+  artifactKey: Guid(1b62d6ac157602e4b9e379c153413498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt54.png using Guid(1b62d6ac157602e4b9e379c153413498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58afa6b16d905778726e4a778a33ab5') in 0.059354 seconds
+  Import took 0.063452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt55.png
+  artifactKey: Guid(59bb49afbf55e344db65d2b52333648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt55.png using Guid(59bb49afbf55e344db65d2b52333648b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f9cfaff956c658b1df9cb70a1d2cb1') in 0.067458 seconds
+  Import took 0.076950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/Cars/car_yellow_1.png
+  artifactKey: Guid(f91225788ba3bfb439703a6a817072d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_1.png using Guid(f91225788ba3bfb439703a6a817072d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac545d69668b91977d2e4bd79ae0e1f6') in 0.068419 seconds
+  Import took 0.081269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000783 seconds.
+  path: Assets/Assets/Cars/car_yellow_small_3.png
+  artifactKey: Guid(01aba7ff5adfc9f4f992c8e9d238b63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_small_3.png using Guid(01aba7ff5adfc9f4f992c8e9d238b63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6934e4753700ccae5fc8b9289b7775') in 0.038357 seconds
+  Import took 0.054309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001237 seconds.
+  path: Assets/Assets/Dirt/land_dirt06.png
+  artifactKey: Guid(10cbd403a95c4d94aa221bb29b6c284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt06.png using Guid(10cbd403a95c4d94aa221bb29b6c284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50be1396743c19de4a9b92d96ee395e') in 0.047451 seconds
+  Import took 0.052036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt09.png
+  artifactKey: Guid(3cce971b12e163840a071da0bdafe1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt09.png using Guid(3cce971b12e163840a071da0bdafe1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc511d935c4156e211cf6f89e1db971b') in 0.038515 seconds
+  Import took 0.042100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt08.png
+  artifactKey: Guid(4511764c91a84c64eb4da22d746372af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt08.png using Guid(4511764c91a84c64eb4da22d746372af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b5e453fd6b2c90426911d69633402d') in 0.025990 seconds
+  Import took 0.033474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Assets/Dirt/land_dirt13.png
+  artifactKey: Guid(2f7802ab2e1549b48895048269f3e691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt13.png using Guid(2f7802ab2e1549b48895048269f3e691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc3ba6af93a47edac79a75e2a7baeaf') in 0.039194 seconds
+  Import took 0.042942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/Grass/land_grass02.png
+  artifactKey: Guid(58421c0985752c647aaaaff91210cb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass02.png using Guid(58421c0985752c647aaaaff91210cb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ad256943580a1e236482dbf8c9ce8a') in 0.045041 seconds
+  Import took 0.048021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000864 seconds.
+  path: Assets/Assets/Dirt/land_dirt08.png
+  artifactKey: Guid(c7e9c2d76cfc5514296aceff8079f8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt08.png using Guid(c7e9c2d76cfc5514296aceff8079f8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53096a7979f26c61e362a48f4af594db') in 0.055077 seconds
+  Import took 0.063500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Assets/Grass/land_grass05.png
+  artifactKey: Guid(1ea5db79121b14044ad86b3b331ae020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass05.png using Guid(1ea5db79121b14044ad86b3b331ae020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afd81a82f884566deb57b691a531c61') in 0.113006 seconds
+  Import took 0.119522 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000632 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.371 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 914 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.1 MB.
+System memory in use after: 64.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1401.
+Total: 2.448734 ms (FindLiveObjects: 0.174095 ms CreateObjectMapping: 0.058539 ms MarkObjects: 2.061012 ms  DeleteObjects: 0.152808 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000604 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.374 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 914 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.1 MB.
+System memory in use after: 64.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1402.
+Total: 2.353324 ms (FindLiveObjects: 0.183978 ms CreateObjectMapping: 0.060059 ms MarkObjects: 1.957619 ms  DeleteObjects: 0.149007 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000601 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 914 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.1 MB.
+System memory in use after: 64.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1403.
+Total: 2.368909 ms (FindLiveObjects: 0.173335 ms CreateObjectMapping: 0.058919 ms MarkObjects: 1.986508 ms  DeleteObjects: 0.148247 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000902 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 914 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.2 MB.
+System memory in use after: 64.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1404.
+Total: 2.382213 ms (FindLiveObjects: 0.161931 ms CreateObjectMapping: 0.059679 ms MarkObjects: 2.011216 ms  DeleteObjects: 0.147487 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.084165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.855 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 918 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.0 MB.
+System memory in use after: 64.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1405.
+Total: 2.420225 ms (FindLiveObjects: 0.166113 ms CreateObjectMapping: 0.059679 ms MarkObjects: 2.045427 ms  DeleteObjects: 0.146726 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.0 MB.
+System memory in use after: 46.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1405.
+Total: 2.352564 ms (FindLiveObjects: 0.155469 ms CreateObjectMapping: 0.052076 ms MarkObjects: 1.996391 ms  DeleteObjects: 0.147487 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 919.572829 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad (5th generation)_Overlay.png
+  artifactKey: Guid(2f97bf45e7c32486d8bb0a2d5c73d7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad (5th generation)_Overlay.png using Guid(2f97bf45e7c32486d8bb0a2d5c73d7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41836f83d68149ea246356022cff658d') in 0.336178 seconds
+  Import took 0.344820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/Cars/car_black_2.png
+  artifactKey: Guid(f45b27b40696a784fa940a1461fef12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_2.png using Guid(f45b27b40696a784fa940a1461fef12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2621457d5170647dab15cd66492b05') in 0.118460 seconds
+  Import took 0.126826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000817 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad Mini 4_Overlay.png
+  artifactKey: Guid(df55e5369a48044ccb627d2537621578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad Mini 4_Overlay.png using Guid(df55e5369a48044ccb627d2537621578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0195dfb0c0b507ec13c9f374e3b69465') in 0.265504 seconds
+  Import took 0.272014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone XS Max_Overlay.png
+  artifactKey: Guid(10148836d7bb8495fac4a8c067321e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone XS Max_Overlay.png using Guid(10148836d7bb8495fac4a8c067321e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fc067f62ab86358e8b6f3857fe650b') in 0.230630 seconds
+  Import took 0.233313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Assets/Objects/barrier_white_race.png
+  artifactKey: Guid(b892ec5f447680c438bc850d69adce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Objects/barrier_white_race.png using Guid(b892ec5f447680c438bc850d69adce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b101011a18a405eaa9ce7b1262b1eca') in 0.073264 seconds
+  Import took 0.084871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001038 seconds.
+  path: Assets/Assets/Cars/car_black_1.png
+  artifactKey: Guid(1b99b93fe5a678242a03085f97fad72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_1.png using Guid(1b99b93fe5a678242a03085f97fad72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948d90faa340ed1fae859a6d76d8f586') in 0.035390 seconds
+  Import took 0.041338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Assets/Cars/car_blue_2.png
+  artifactKey: Guid(1732a60079422584f84c6d717286991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_2.png using Guid(1732a60079422584f84c6d717286991f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a155ef1f48029c3c785924c8ad89d108') in 0.023790 seconds
+  Import took 0.029303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Assets/Cars/car_black_small_2.png
+  artifactKey: Guid(0eba36fd406e72c469a3e3c2a7bb99d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_small_2.png using Guid(0eba36fd406e72c469a3e3c2a7bb99d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4d0f7f9d3e3887e9b9b62bc4456085') in 0.022742 seconds
+  Import took 0.030508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone 12_Overlay.png
+  artifactKey: Guid(fda4d016fc9e3482ba0079d27aeffbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone 12_Overlay.png using Guid(fda4d016fc9e3482ba0079d27aeffbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c767d905a211fc88e547bac647be0995') in 0.271267 seconds
+  Import took 0.281990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad Pro 10.15_Overlay.png
+  artifactKey: Guid(bebdcaeee33294614a84f052e24202a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad Pro 10.15_Overlay.png using Guid(bebdcaeee33294614a84f052e24202a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2931b731946314faad81edd651f15579') in 0.271191 seconds
+  Import took 0.276855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone 12 mini_Overlay.png
+  artifactKey: Guid(6ef3bafca0c0c445aa71d0860613cb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone 12 mini_Overlay.png using Guid(6ef3bafca0c0c445aa71d0860613cb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae8dc3362981cf40df38fd5dac8dde3') in 0.193187 seconds
+  Import took 0.195883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Assets/Cars/car_black_small_5.png
+  artifactKey: Guid(2b78290742541d04fb3389093f588a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_small_5.png using Guid(2b78290742541d04fb3389093f588a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ce64180947750d61769ae9644f87a9') in 0.030531 seconds
+  Import took 0.039154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad Pro 12.9 (2018)_Overlay.png
+  artifactKey: Guid(ca9b1e084e2584edd93d4c929222ef78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad Pro 12.9 (2018)_Overlay.png using Guid(ca9b1e084e2584edd93d4c929222ef78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721b80dac59d834bc46a6851be74fe12') in 0.349777 seconds
+  Import took 0.365537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Asus ROG Phone_Overlay.png
+  artifactKey: Guid(dc473f9c0b3dd41b59538fcefc613957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Asus ROG Phone_Overlay.png using Guid(dc473f9c0b3dd41b59538fcefc613957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f97f3358bd37ea2684a0f934ae7e31') in 0.214969 seconds
+  Import took 0.217813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Assets/Cars/car_blue_1.png
+  artifactKey: Guid(97ff9aaa3d7bb8648936179831781d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_1.png using Guid(97ff9aaa3d7bb8648936179831781d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192a9c38d2e00f0d0ebc359a31b2e4dc') in 0.012891 seconds
+  Import took 0.015905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone 12 Pro Max_Overlay.png
+  artifactKey: Guid(18d30a38c97ad4e89aff2785895cb909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone 12 Pro Max_Overlay.png using Guid(18d30a38c97ad4e89aff2785895cb909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f3ee3166d2fec7a4698a7fc7f7eade') in 0.285560 seconds
+  Import took 0.293522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Assets/Cars/car_black_5.png
+  artifactKey: Guid(07fb0e95e88061a47843e68ec6e4c121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_5.png using Guid(07fb0e95e88061a47843e68ec6e4c121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdca693eceebbd5851682db891ac015f') in 0.043127 seconds
+  Import took 0.046411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001279 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone XS_Overlay.png
+  artifactKey: Guid(1f50b28fd0e30443f94eb0b61e4f94d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone XS_Overlay.png using Guid(1f50b28fd0e30443f94eb0b61e4f94d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f9b90eb10d974a980e5eae774dafcd') in 0.264724 seconds
+  Import took 0.275189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008366 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone 8_Overlay.png
+  artifactKey: Guid(433ca5b1c4bc24fd09b81894451b289c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone 8_Overlay.png using Guid(433ca5b1c4bc24fd09b81894451b289c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7ffab94db8f895eb9baed708bd506a') in 0.149345 seconds
+  Import took 0.153568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Assets/Cars/car_black_small_3.png
+  artifactKey: Guid(919a78d187c58d441be5ee6957e2ca81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_small_3.png using Guid(919a78d187c58d441be5ee6957e2ca81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f3cb1b9b01f77572deebffcfad1c56') in 0.048083 seconds
+  Import took 0.052684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000667 seconds.
+  path: Assets/Assets/Cars/car_black_small_1.png
+  artifactKey: Guid(30d916b911073a44790f8eb195c97b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_small_1.png using Guid(30d916b911073a44790f8eb195c97b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131735f002aa6f69faee80c69cd7897c') in 0.083254 seconds
+  Import took 0.092035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPod Touch 7th Gen_Overlay.png
+  artifactKey: Guid(6d6d2456362374de4a68613c92e5f0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPod Touch 7th Gen_Overlay.png using Guid(6d6d2456362374de4a68613c92e5f0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8252039260c06dc1ad179345362307f2') in 0.126442 seconds
+  Import took 0.129799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000778 seconds.
+  path: Assets/Assets/Cars/car_black_4.png
+  artifactKey: Guid(8d83d509786cd2442b51c45e8f8a2fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_4.png using Guid(8d83d509786cd2442b51c45e8f8a2fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fbe2b7eda0b4e7f35a134d3a5ad979') in 0.033337 seconds
+  Import took 0.041530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad (5th generation)_Overlay.png
+  artifactKey: Guid(2f97bf45e7c32486d8bb0a2d5c73d7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad (5th generation)_Overlay.png using Guid(2f97bf45e7c32486d8bb0a2d5c73d7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41836f83d68149ea246356022cff658d') in 0.190609 seconds
+  Import took 0.197934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad (7th gen)_Overlay.png
+  artifactKey: Guid(1495919f6bba240b3bb6d5fcf4914813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad (7th gen)_Overlay.png using Guid(1495919f6bba240b3bb6d5fcf4914813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d387d1d6db32050e27cead4825143c') in 0.312249 seconds
+  Import took 0.326091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad Pro 11_Overlay.png
+  artifactKey: Guid(d86d045a23a91400d9d4ee690e9988dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad Pro 11_Overlay.png using Guid(d86d045a23a91400d9d4ee690e9988dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719638ae2b824b7a3cad70ee2c0e2de2') in 0.269451 seconds
+  Import took 0.276532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone 11_Overlay.png
+  artifactKey: Guid(36b3997f7061948f28e75b62f721fc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone 11_Overlay.png using Guid(36b3997f7061948f28e75b62f721fc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741134be3642def55506a5f6d09419b8') in 0.154044 seconds
+  Import took 0.160611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/Assets/Cars/car_black_small_4.png
+  artifactKey: Guid(33aab28f466f2db47a3534de335df86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_small_4.png using Guid(33aab28f466f2db47a3534de335df86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383cc86d6a8cc66ae94708ca178b45aa') in 0.042798 seconds
+  Import took 0.049825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Assets/Cars/car_blue_3.png
+  artifactKey: Guid(c3a6422fe5dc70c4588588ae7af4ae67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_3.png using Guid(c3a6422fe5dc70c4588588ae7af4ae67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6011da76c4884ddc5e13fe039382d51') in 0.087901 seconds
+  Import took 0.094055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001827 seconds.
+  path: Assets/Assets/Cars/car_black_3.png
+  artifactKey: Guid(bf4d66981ad998245bfcdecd64b330a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_black_3.png using Guid(bf4d66981ad998245bfcdecd64b330a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fab884e49f5f7227022dd33b803c7f8') in 0.026142 seconds
+  Import took 0.038217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad Air (4th generation)_Overlay.png
+  artifactKey: Guid(7598e62d2ca494c5a894b599a3041ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPad Air (4th generation)_Overlay.png using Guid(7598e62d2ca494c5a894b599a3041ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baadc50a13bcdec0a549438904c911a1') in 0.329851 seconds
+  Import took 0.339979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone 8 Plus_Overlay.png
+  artifactKey: Guid(a668599b23a224432a09dffc39dd4cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Apple iPhone 8 Plus_Overlay.png using Guid(a668599b23a224432a09dffc39dd4cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b336cc71500e1acfbb924fd35f12a54b') in 0.192328 seconds
+  Import took 0.195570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Assets/Objects/barrier_red_race.png
+  artifactKey: Guid(964f4b5bad02c2e4a8d6e4c2524d1849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Objects/barrier_red_race.png using Guid(964f4b5bad02c2e4a8d6e4c2524d1849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36e8e666641d2e6f1b595e53f6cb142') in 0.095826 seconds
+  Import took 0.102500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 609.028801 seconds.
+  path: Assets/Assets/Cars/car_blue_4.png
+  artifactKey: Guid(74579bde7fe60654f990ec19b83d89b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_4.png using Guid(74579bde7fe60654f990ec19b83d89b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964cd6b866103d8f02ccea0587e8a6d5') in 0.082837 seconds
+  Import took 0.087057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Assets/Cars/car_blue_small_3.png
+  artifactKey: Guid(1eff2cb431d43c144a8e303165ce605c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_small_3.png using Guid(1eff2cb431d43c144a8e303165ce605c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1ae4af266b4a0f7c04339211eeef0a') in 0.079270 seconds
+  Import took 0.085876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000983 seconds.
+  path: Assets/Assets/Cars/car_blue_small_5.png
+  artifactKey: Guid(466f20c330bf23646942f4d03cdb1f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_small_5.png using Guid(466f20c330bf23646942f4d03cdb1f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4883b4fd741dc6cb8784b922684f60') in 0.060272 seconds
+  Import took 0.067924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002906 seconds.
+  path: Assets/Assets/Cars/car_blue_small_1.png
+  artifactKey: Guid(d34062df2c7defe42b8d0a291caa02e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_small_1.png using Guid(d34062df2c7defe42b8d0a291caa02e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823bdc6e47fa0c04604bd57084678935') in 0.081838 seconds
+  Import took 0.098556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000708 seconds.
+  path: Assets/Assets/Cars/car_blue_small_2.png
+  artifactKey: Guid(ceeafa3bb076a914192ee1e49aa4c72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_small_2.png using Guid(ceeafa3bb076a914192ee1e49aa4c72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e613e0957abf4e1b4460768a82c6e7d') in 0.067775 seconds
+  Import took 0.074285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Assets/Cars/car_blue_small_4.png
+  artifactKey: Guid(278a71e29d0d1404c8880f555a71d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_small_4.png using Guid(278a71e29d0d1404c8880f555a71d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62f4d4aa7de735361ac3ee93d01845e') in 0.066782 seconds
+  Import took 0.078691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000895 seconds.
+  path: Assets/Assets/Cars/car_blue_5.png
+  artifactKey: Guid(28435ad470b1b034ba84e14c003fed32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_blue_5.png using Guid(28435ad470b1b034ba84e14c003fed32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71235960a44e123f071b220edbba2034') in 0.058917 seconds
+  Import took 0.064870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Assets/Cars/car_green_small_2.png
+  artifactKey: Guid(3af1dd15341608841965f545be26b90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_small_2.png using Guid(3af1dd15341608841965f545be26b90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be181f645e81d271af84b906459d4e06') in 0.134997 seconds
+  Import took 0.142847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001863 seconds.
+  path: Assets/Assets/Cars/car_red3.png
+  artifactKey: Guid(0d77eee414f1a5e4293b0f988379fd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red3.png using Guid(0d77eee414f1a5e4293b0f988379fd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503c55247a96bc3ace85041205da2287') in 0.037169 seconds
+  Import took 0.041982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001479 seconds.
+  path: Assets/Assets/Cars/car_red1.png
+  artifactKey: Guid(b71b51777cc0161458c83aede2ed9795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red1.png using Guid(b71b51777cc0161458c83aede2ed9795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d1b563d0fc7935494f54b34faa5510') in 0.070858 seconds
+  Import took 0.076333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Assets/Cars/car_green_small_1.png
+  artifactKey: Guid(6133592ebfd7bcf448b80b07ac34f0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_small_1.png using Guid(6133592ebfd7bcf448b80b07ac34f0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a2c5a090da0659212a4244997c1b25') in 0.050659 seconds
+  Import took 0.055232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Assets/Cars/car_green_5.png
+  artifactKey: Guid(19ce47381f1705d48a2a9578d7417478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_5.png using Guid(19ce47381f1705d48a2a9578d7417478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e2a39bc281245bf942f2ffa41ff314') in 0.124831 seconds
+  Import took 0.148749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000618 seconds.
+  path: Assets/Assets/Cars/car_red_small_2.png
+  artifactKey: Guid(db38a565d86d99846801d9455100a5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_small_2.png using Guid(db38a565d86d99846801d9455100a5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7659a1900a84743e75ffc82a8f17d73d') in 0.100047 seconds
+  Import took 0.107072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Assets/Cars/car_red_small_1.png
+  artifactKey: Guid(84e57e7baec6fe94e8d81603400d9055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_small_1.png using Guid(84e57e7baec6fe94e8d81603400d9055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af8be63759706fb0983d4589ff3b71d') in 0.049394 seconds
+  Import took 0.053927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Assets/Cars/car_red_5.png
+  artifactKey: Guid(0eac124ae2c4e8345bc86041b12f5ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_5.png using Guid(0eac124ae2c4e8345bc86041b12f5ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d738c09a623d3a279eb5a155d678ecb') in 0.061563 seconds
+  Import took 0.068944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005778 seconds.
+  path: Assets/Assets/Cars/car_red_small_3.png
+  artifactKey: Guid(c1091cd90195eb5478558163fa748f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_small_3.png using Guid(c1091cd90195eb5478558163fa748f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be236242d2e4d3610991ca5d9558161') in 0.080890 seconds
+  Import took 0.093211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001465 seconds.
+  path: Assets/Assets/Cars/car_yellow_3.png
+  artifactKey: Guid(da7202a103127ab4980cda35dcee773b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_3.png using Guid(da7202a103127ab4980cda35dcee773b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b6308fdacc840d64fdbb11e3c89289') in 0.096835 seconds
+  Import took 0.101932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Assets/Cars/car_yellow_small_2.png
+  artifactKey: Guid(1c1f5e33986829849b3a329ff236ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_small_2.png using Guid(1c1f5e33986829849b3a329ff236ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c54fc6e86f3d97d60af580128bea178') in 0.053800 seconds
+  Import took 0.065082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006364 seconds.
+  path: Assets/Assets/Cars/car_yellow_2.png
+  artifactKey: Guid(6cb3fc0da34a7bf4192fc37c39db8a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_2.png using Guid(6cb3fc0da34a7bf4192fc37c39db8a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff342a4003ef672c4fede812491ccc7e') in 0.062197 seconds
+  Import took 0.071781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/Icons/close_button.png
+  artifactKey: Guid(4c765b62d3980364cbabbec1fe010c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/Icons/close_button.png using Guid(4c765b62d3980364cbabbec1fe010c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285893fd28f26210d1e721b2c6e70d4e') in 0.046913 seconds
+  Import took 0.072861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004824 seconds.
+  path: Assets/Assets/Cars/car_yellow_small_5.png
+  artifactKey: Guid(d98a1e70042524b4b8351467813ec248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_small_5.png using Guid(d98a1e70042524b4b8351467813ec248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2658d3ff5cd9100c2768a381a0f1f0') in 0.060567 seconds
+  Import took 0.066429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/Icons/d_UnityEditor.DeviceSimulation.SimulatorWindow@2x.png
+  artifactKey: Guid(470715e5ce3744b07ba2f1404f7949f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/Icons/d_UnityEditor.DeviceSimulation.SimulatorWindow@2x.png using Guid(470715e5ce3744b07ba2f1404f7949f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebd667c0022fa475d75e3a90736aa42') in 0.042271 seconds
+  Import took 0.047448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Assets/Cars/car_yellow_small_4.png
+  artifactKey: Guid(b0ab54f6959ef8244a4efd944b53c26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_small_4.png using Guid(b0ab54f6959ef8244a4efd944b53c26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b958f8e8cdd09b843eee877add0e8c5') in 0.075917 seconds
+  Import took 0.079267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Assets/Cars/car_yellow_small_1.png
+  artifactKey: Guid(b96ac1d375f26454baad6abeeff7fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_small_1.png using Guid(b96ac1d375f26454baad6abeeff7fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bad65d3908b653ac7052e0728697ee6') in 0.088775 seconds
+  Import took 0.091199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Assets/Cars/car_red_3.png
+  artifactKey: Guid(cecf1b8eb504b1446bbd96043d086d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_3.png using Guid(cecf1b8eb504b1446bbd96043d086d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af78648f0f1cbd8aaeccfdda94eff11') in 0.029791 seconds
+  Import took 0.032172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Assets/Cars/car_yellow_4.png
+  artifactKey: Guid(804dfbe7b7749bc418a359b29170de8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_4.png using Guid(804dfbe7b7749bc418a359b29170de8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8caea07a081751b0065bb616ba04940') in 0.054198 seconds
+  Import took 0.057728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Google Pixel 4_Overlay.png
+  artifactKey: Guid(13ea805743fac4dcdac96712cb4b42b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Google Pixel 4_Overlay.png using Guid(13ea805743fac4dcdac96712cb4b42b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf32050a6028bc4bc829cbd2e621b4c') in 0.276723 seconds
+  Import took 0.279426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/HTC One M9_Overlay.png
+  artifactKey: Guid(79550492e26e646f5b2b2a8bd18c9e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/HTC One M9_Overlay.png using Guid(79550492e26e646f5b2b2a8bd18c9e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59a89d4d497bde0625c892624c26a2f') in 0.316870 seconds
+  Import took 0.322456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001759 seconds.
+  path: Assets/Assets/Dirt/land_dirt03.png
+  artifactKey: Guid(985203357448b7f41bb3e3678faf968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt03.png using Guid(985203357448b7f41bb3e3678faf968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa072e6952fca82113b60c874d9a1f0') in 0.113648 seconds
+  Import took 0.124155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Google Pixel 5_Overlay.png
+  artifactKey: Guid(a4e9612231b3f44a6bda90304e64f426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Google Pixel 5_Overlay.png using Guid(a4e9612231b3f44a6bda90304e64f426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c74629491a24a96293622cd6330f31c') in 0.243982 seconds
+  Import took 0.251415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Assets/Dirt/land_dirt01.png
+  artifactKey: Guid(61f7f5b4cf9dbd8428d9cadde6c22c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt01.png using Guid(61f7f5b4cf9dbd8428d9cadde6c22c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c98d098acfdb7139e93549c8236263') in 0.083381 seconds
+  Import took 0.091309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Assets/Objects/cone_down.png
+  artifactKey: Guid(9daa81b3004294245b34ce7ca4764288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Objects/cone_down.png using Guid(9daa81b3004294245b34ce7ca4764288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d279a606121aa5d6777c7407105ac9') in 0.103029 seconds
+  Import took 0.108188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Assets/Cars/car_green_small_4.png
+  artifactKey: Guid(d9ae11cb6dfe99c46816e55a74355556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_small_4.png using Guid(d9ae11cb6dfe99c46816e55a74355556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21558eb28f546bc51f519e85cfb7f9a3') in 0.063927 seconds
+  Import took 0.068198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/Assets/Cars/car_red4.png
+  artifactKey: Guid(57c1f92b23b549349ba4f739ba251ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red4.png using Guid(57c1f92b23b549349ba4f739ba251ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605844dd9b00436d40bdf2ee433af451') in 0.068435 seconds
+  Import took 0.086794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Assets/Dirt/land_dirt12.png
+  artifactKey: Guid(3637e7840c739ee4fbd8feb75d7c981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt12.png using Guid(3637e7840c739ee4fbd8feb75d7c981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717262b0c112c254bfd2eb73b0fa1462') in 0.097693 seconds
+  Import took 0.105653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000968 seconds.
+  path: Assets/Assets/Dirt/land_dirt11.png
+  artifactKey: Guid(c8179f5436bbba040a1937219867711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt11.png using Guid(c8179f5436bbba040a1937219867711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d1de74325a35bd3368936fe287d2ed') in 0.056008 seconds
+  Import took 0.061727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Assets/Grass/land_grass07.png
+  artifactKey: Guid(9e3df3a3817bd544ead612f1422597d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass07.png using Guid(9e3df3a3817bd544ead612f1422597d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3def4c83cc8a4eac682a4c9d2858a647') in 0.044456 seconds
+  Import took 0.049189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Assets/Grass/land_grass10.png
+  artifactKey: Guid(6d437f0b79251c94994cb59b81a5ed87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass10.png using Guid(6d437f0b79251c94994cb59b81a5ed87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216b13db931ca7566077fb85c3ab0a39') in 0.098014 seconds
+  Import took 0.103238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/HTC 10_Overlay.png
+  artifactKey: Guid(0c1798b2df7ab49779e022da21c11ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/HTC 10_Overlay.png using Guid(0c1798b2df7ab49779e022da21c11ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c931cf6963af16489bccf0c9b17b29') in 0.316858 seconds
+  Import took 0.327218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/LG Nexus 5_Overlay.png
+  artifactKey: Guid(1e61ac6cb5c394020b1a6cbf998a83c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/LG Nexus 5_Overlay.png using Guid(1e61ac6cb5c394020b1a6cbf998a83c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4f636d8fcb4478533e64397b742535') in 0.268243 seconds
+  Import took 0.273660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000930 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c10d63ca6f4b84b76bfa76dac482521') in 0.617673 seconds
+  Import took 0.622265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Assets/UI/pause.png
+  artifactKey: Guid(2198879722f0085469d92b718c119e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/pause.png using Guid(2198879722f0085469d92b718c119e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab910528c580887eb7037e5edf3a3aa') in 0.141921 seconds
+  Import took 0.146276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001392 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Motorola Moto G7 Power_Overlay.png
+  artifactKey: Guid(88f53c0c2edf749fea9a672d8cacea73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Motorola Moto G7 Power_Overlay.png using Guid(88f53c0c2edf749fea9a672d8cacea73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd451da183d2104a7a9f049843aaba2d0') in 0.156791 seconds
+  Import took 0.166144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000747 seconds.
+  path: Assets/Assets/Grass/land_grass11.png
+  artifactKey: Guid(34ca724a671cda0469f7e224f736b1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass11.png using Guid(34ca724a671cda0469f7e224f736b1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0aa558a118d0eecbd53d8499f1fef03') in 0.087040 seconds
+  Import took 0.096559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001395 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ac8bc84c5ea01543b63be3651ab6fa') in 0.190747 seconds
+  Import took 0.197991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt07.png
+  artifactKey: Guid(d70aa15e9dcebfb42b8de066b94d5bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt07.png using Guid(d70aa15e9dcebfb42b8de066b94d5bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffb9d5436475ca737c34215cc3cb657') in 0.064872 seconds
+  Import took 0.092175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001172 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Huawei P9_Overlay.png
+  artifactKey: Guid(79f036d3c472b406ead85c5316d8ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Huawei P9_Overlay.png using Guid(79f036d3c472b406ead85c5316d8ccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c06e0a803c77100cb1be3a940edc111') in 0.227487 seconds
+  Import took 0.233094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/Dirt/land_dirt05.png
+  artifactKey: Guid(31621b78efcf73144877742065c015f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt05.png using Guid(31621b78efcf73144877742065c015f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a964d23634d89d2b2e05c8eec9b8929c') in 0.087489 seconds
+  Import took 0.094515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001967 seconds.
+  path: Assets/Assets/Cars/car_red_small_4.png
+  artifactKey: Guid(a8df8d65a25ac3845abc67bae5098835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_small_4.png using Guid(a8df8d65a25ac3845abc67bae5098835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3b65e804a4b2a1ad8064e81de0dc9b') in 0.051993 seconds
+  Import took 0.061272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Assets/Cars/car_red_4.png
+  artifactKey: Guid(4dddde7f2af11f24783584a0b8264f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_4.png using Guid(4dddde7f2af11f24783584a0b8264f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d35bdfa04a64e0ca1370cf95a5fb65') in 0.028945 seconds
+  Import took 0.036870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Assets/Grass/land_grass14.png
+  artifactKey: Guid(d710e03f26e7a71459c5d8fd798f3d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass14.png using Guid(d710e03f26e7a71459c5d8fd798f3d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c8e124307cc2bf933570de76a2a836') in 0.085857 seconds
+  Import took 0.090214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt06.png
+  artifactKey: Guid(1b8d377e5175a66458e048396881a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt06.png using Guid(1b8d377e5175a66458e048396881a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c88a9c2c7ca5e9d4b7cb232fe647f74') in 0.134399 seconds
+  Import took 0.141272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Assets/Dirt/land_dirt14.png
+  artifactKey: Guid(a5d836d57c2cadc4094a306120591e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt14.png using Guid(a5d836d57c2cadc4094a306120591e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151f2e8f1fd0256240d3cdf3a6176591') in 0.051725 seconds
+  Import took 0.057703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000755 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Razer Phone_Overlay.png
+  artifactKey: Guid(80c5b05b5159843a9b30759442dd07fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Razer Phone_Overlay.png using Guid(80c5b05b5159843a9b30759442dd07fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d0d0e175fe2e6ce2ec8eeb0e7d97db') in 0.337354 seconds
+  Import took 0.345268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Assets/Grass/land_grass12.png
+  artifactKey: Guid(ca345727da243494ca3344d110a2d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass12.png using Guid(ca345727da243494ca3344d110a2d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a7298c41589de88ff0e2f7973239ea') in 0.156026 seconds
+  Import took 0.159282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Assets/Dirt/land_dirt09.png
+  artifactKey: Guid(d5bfaaa79e06885489e30c98962d72c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt09.png using Guid(d5bfaaa79e06885489e30c98962d72c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03ef03c8de501361715999bc5a16c22') in 0.074930 seconds
+  Import took 0.084092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001348 seconds.
+  path: Assets/Assets/Grass/land_grass01.png
+  artifactKey: Guid(0ee1e71c082e3d2488a6557473ba1515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass01.png using Guid(0ee1e71c082e3d2488a6557473ba1515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50995a39703ab223abcfc6ef400dcb6') in 0.057589 seconds
+  Import took 0.064148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Assets/Cars/car_red_1.png
+  artifactKey: Guid(1fbb16d8081d0ad43b5707db995306e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red_1.png using Guid(1fbb16d8081d0ad43b5707db995306e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb998bb8a6cd7327f3a9a150e046724') in 0.041798 seconds
+  Import took 0.051876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002678 seconds.
+  path: Assets/Assets/UI/forward.png
+  artifactKey: Guid(d81ced869d09237438a322379af17199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/forward.png using Guid(d81ced869d09237438a322379af17199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be6baed2c54cd90dec2f261989ee10b') in 0.092130 seconds
+  Import took 0.098428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002005 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Huawei P40 Pro_Overlay.png
+  artifactKey: Guid(f9a277d36cf814b3cad90219350a4668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Huawei P40 Pro_Overlay.png using Guid(f9a277d36cf814b3cad90219350a4668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3c80f84628b65c889c50394787876a') in 0.252080 seconds
+  Import took 0.261669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001351 seconds.
+  path: Assets/Assets/Grass/land_grass04.png
+  artifactKey: Guid(e7685a2292d29484397110d147836705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass04.png using Guid(e7685a2292d29484397110d147836705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d01724ab9c0dc9467121c19eec3493') in 0.122004 seconds
+  Import took 0.125084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/LGE LG G3_Overlay.png
+  artifactKey: Guid(7a0a6e4d6881f4f9980600db0894a7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/LGE LG G3_Overlay.png using Guid(7a0a6e4d6881f4f9980600db0894a7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67b92518c4c896a0273ca667f3bb5ba') in 0.367844 seconds
+  Import took 0.373506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/Icons/d_UnityEditor.DeviceSimulation.SimulatorWindow.png
+  artifactKey: Guid(13e9839d971cb4feb8009c6746459c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/Icons/d_UnityEditor.DeviceSimulation.SimulatorWindow.png using Guid(13e9839d971cb4feb8009c6746459c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd5bb2faf0c1a4aef86e2d0f71ee038') in 0.092906 seconds
+  Import took 0.098441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Nvidia Shield Tablet_Overlay.png
+  artifactKey: Guid(bb31482e9412e4e70aad9c3a347bb88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Nvidia Shield Tablet_Overlay.png using Guid(bb31482e9412e4e70aad9c3a347bb88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b72f81dcd3b6d176de6999c47af5952') in 0.240178 seconds
+  Import took 0.244192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt01.png
+  artifactKey: Guid(3b096accfbbdfdd4bafafa8c642206d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt01.png using Guid(3b096accfbbdfdd4bafafa8c642206d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99937d20a4b98e28070912bbd7588e6c') in 0.126543 seconds
+  Import took 0.130655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Assets/Dirt/land_dirt02.png
+  artifactKey: Guid(5a9e74eef1cb1f140b559a82e70f3915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt02.png using Guid(5a9e74eef1cb1f140b559a82e70f3915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a4aea639a3a28456a6712a5ff171a3') in 0.055845 seconds
+  Import took 0.086849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005644 seconds.
+  path: Assets/Assets/UI/return.png
+  artifactKey: Guid(e3799101eb89f1848ad6f1e9993902ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI/return.png using Guid(e3799101eb89f1848ad6f1e9993902ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa4c387263d28e814349ea7c2afc4ed') in 0.055690 seconds
+  Import took 0.061104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000748 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Lenovo Phab2 Pro_Overlay.png
+  artifactKey: Guid(8b1ac92e9aef44265b69eac929685ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Lenovo Phab2 Pro_Overlay.png using Guid(8b1ac92e9aef44265b69eac929685ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fa36be49b993f19eaa51e79e6bca22') in 0.285153 seconds
+  Import took 0.294431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Assets/Cars/car_green_1.png
+  artifactKey: Guid(b0cf762e09fe930449bcb793810bec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_green_1.png using Guid(b0cf762e09fe930449bcb793810bec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c2aedbc5367331d96ed10041542746') in 0.127724 seconds
+  Import took 0.130504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets/Cars/car_red5.png
+  artifactKey: Guid(3710c72f0ad5b1543aeadb2d49a05f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_red5.png using Guid(3710c72f0ad5b1543aeadb2d49a05f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8a7d17281543b423506916be0e75a1') in 0.014917 seconds
+  Import took 0.017408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/OnePlus 6T_Overlay.png
+  artifactKey: Guid(41ec648e41f664c8b86a9287ecf139b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/OnePlus 6T_Overlay.png using Guid(41ec648e41f664c8b86a9287ecf139b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12da1d62763bcda4698e8fa5772ffe2d') in 0.243210 seconds
+  Import took 0.245908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Assets/Cars/car_yellow_1.png
+  artifactKey: Guid(f91225788ba3bfb439703a6a817072d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cars/car_yellow_1.png using Guid(f91225788ba3bfb439703a6a817072d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75003aa97747aae7610844ae0797aafd') in 0.125332 seconds
+  Import took 0.128584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Google Pixel 2 XL_Overlay.png
+  artifactKey: Guid(8fb78b16653794857a6f0d404a924f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Google Pixel 2 XL_Overlay.png using Guid(8fb78b16653794857a6f0d404a924f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d58b87e4f15e60d686df54184e390a') in 0.324939 seconds
+  Import took 0.332349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Assets/Dirt/land_dirt06.png
+  artifactKey: Guid(10cbd403a95c4d94aa221bb29b6c284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dirt/land_dirt06.png using Guid(10cbd403a95c4d94aa221bb29b6c284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f06abb319dc0d994dc4386f7b1004e') in 0.115540 seconds
+  Import took 0.118545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt09.png
+  artifactKey: Guid(3cce971b12e163840a071da0bdafe1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt09.png using Guid(3cce971b12e163840a071da0bdafe1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b5b66f595252f2cb9c284a4840d8e1') in 0.051376 seconds
+  Import took 0.055146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Assets/Asphalt road/road_asphalt08.png
+  artifactKey: Guid(4511764c91a84c64eb4da22d746372af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Asphalt road/road_asphalt08.png using Guid(4511764c91a84c64eb4da22d746372af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c4d7d59127ce3fc4aefef2fdb02c9a') in 0.123447 seconds
+  Import took 0.129649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002356 seconds.
+  path: Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Motorola Nexus 6_Overlay.png
+  artifactKey: Guid(dc6ec6a7bbbd94d6a87744e633d1acb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.device-simulator/Editor/SimulatorResources/DeviceAssets/DeviceOverlays/Motorola Nexus 6_Overlay.png using Guid(dc6ec6a7bbbd94d6a87744e633d1acb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d6d2b03bd3af7a28a8e3d2a029cf30') in 0.308399 seconds
+  Import took 0.314855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Assets/Icon.png
+  artifactKey: Guid(0bc441027eaad98419edc0a19f078607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Icon.png using Guid(0bc441027eaad98419edc0a19f078607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33765c7e138ebf27878fea27a7e30966') in 0.068277 seconds
+  Import took 0.074561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001041 seconds.
+  path: Assets/Assets/Grass/land_grass05.png
+  artifactKey: Guid(1ea5db79121b14044ad86b3b331ae020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Grass/land_grass05.png using Guid(1ea5db79121b14044ad86b3b331ae020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cfeda843a685f3da8875efd30b9fc2') in 0.078602 seconds
+  Import took 0.085256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.758633 seconds.
+  path: Assets/Scripts/CarSelection.cs
+  artifactKey: Guid(49ab2a5e3b2d743478dde20377f6e405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarSelection.cs using Guid(49ab2a5e3b2d743478dde20377f6e405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b0e1187eb3339a3040429b797f6324') in 0.593232 seconds
+  Import took 0.596282 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032020 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.406 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 918 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.4 MB.
+System memory in use after: 64.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1462.
+Total: 2.550226 ms (FindLiveObjects: 0.184358 ms CreateObjectMapping: 0.059679 ms MarkObjects: 2.154141 ms  DeleteObjects: 0.150528 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.4 MB.
+System memory in use after: 46.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1462.
+Total: 2.597741 ms (FindLiveObjects: 0.173335 ms CreateObjectMapping: 0.052837 ms MarkObjects: 2.218001 ms  DeleteObjects: 0.151668 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 32.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.4 MB.
+System memory in use after: 46.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1462.
+Total: 3311.228712 ms (FindLiveObjects: 143.333053 ms CreateObjectMapping: 0.067661 ms MarkObjects: 3136.679050 ms  DeleteObjects: 31.144006 ms)
+

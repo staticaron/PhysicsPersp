@@ -21,12 +21,24 @@ public class CarSelection : MonoBehaviour
 
     private Camera cam;
 
+    private bool isMobile = false;
+
     private void Awake()
     {
         #region Maintain Single Instance
         if (instance == null) instance = this;
         else Destroy(gameObject);
         #endregion
+
+        //Get the platform data
+        #if UNITY_STANDALONE
+            isMobile = false; 
+        #endif
+
+        #if UNITY_ANDROID
+            isMobile = true;
+        #endif
+
 
         cam = Camera.main;
 
@@ -35,18 +47,18 @@ public class CarSelection : MonoBehaviour
 
     private void Update()
     {
-        if (Application.isMobilePlatform == true)
+        if(isMobile == false)
         {
             if (Input.GetMouseButtonDown(0))
             {
                 Clicked();
             }
-        }
-        else
-        {
+       }
+       else
+       {
             if (Input.touchCount > 0)
-            {
-                //Screen Touched
+            {     
+                //ScreenTouched 
                 Touch touch = Input.GetTouch(0);
                 if (touch.phase == TouchPhase.Began)
                 {
@@ -54,7 +66,6 @@ public class CarSelection : MonoBehaviour
                 }
             }
         }
-
     }
 
     //Init car selection based on click
@@ -74,13 +85,15 @@ public class CarSelection : MonoBehaviour
 
             //Raise event
             if (ESelectionMade != null) ESelectionMade(selectedCar);
+
+            Debug.Log("Click Selection Made");
         }
     }
 
     //Init car selection based on touch
     public void Touched(Touch touch)
     {
-        Vector2 touchPos = touch.position;
+        Vector2 touchPos = cam.ScreenToWorldPoint(touch.position);
         float rayLength = Mathf.Infinity;
 
         RaycastHit2D hitData = Physics2D.Raycast(touchPos, Vector3.forward, rayLength, carLayer);
@@ -94,6 +107,8 @@ public class CarSelection : MonoBehaviour
 
             //Rasie Event
             if (ESelectionMade != null) ESelectionMade(selectedCar);
+
+            Debug.Log("Touch Selection Made");
         }
     }
 }
